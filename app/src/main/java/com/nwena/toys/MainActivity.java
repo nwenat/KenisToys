@@ -19,17 +19,16 @@ public class MainActivity extends AppCompatActivity implements CommonColors{
     }
 
     public void click(View view) {
-        Intent intent;
+        Intent intent = null;
         switch (view.getId()) {
             case R.id.kenisBtn:
                 intent = new Intent(MainActivity.this, KenisActivity.class);
-                startActivity(intent);
                 break;
             case R.id.toysBtn:
                 intent = new Intent(MainActivity.this, ToysActivity.class);
-                startActivity(intent);
                 break;
         }
+        startActivity(intent);
     }
 
     @Override

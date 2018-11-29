@@ -18,7 +18,6 @@ import java.io.OutputStreamWriter;
 public class NoteActivity extends AppCompatActivity implements CommonColors {
 
     EditText et;
-    //String text = "";
     Bundle bundle = new Bundle();
     private String path = Environment.getExternalStorageDirectory().toString() + "/DigitalZombieLab/KenisToys";
     private final int MEMORY_ACCESS = 5;

@@ -13,7 +13,7 @@
     tools:showIn="@layout/activity_note">
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="match_parent" android:inputType="" 
         android:layout_height="match_parent"
         android:id="@+id/editText"/>
 
